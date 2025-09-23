@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\AtomicConsumeDispatchOutbox.Sql\AtomicConsumeDispatchOutbox.Sql.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NServiceBus" Version="9.1.*" />
+		<PackageReference Include="NServiceBus.Transport.AzureServiceBus" Version="4.2.*" />
+		<PackageReference Include="NServiceBus.Persistence.Sql" Version="8.0.*" />
+		<PackageReference Include="Npgsql" Version="9.0.*" />
+	</ItemGroup>
+
+</Project>

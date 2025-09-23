@@ -1,0 +1,7 @@
+/.vs/
+/AtomicConsumeDispatchOutbox.Sql/bin/
+/AtomicConsumeDispatchOutbox.Sql/obj/
+/Demo/bin/Debug/
+/Demo/obj/
+/LockLostDemo/bin/
+/LockLostDemo/obj/
